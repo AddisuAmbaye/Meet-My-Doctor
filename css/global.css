@@ -1,0 +1,116 @@
+/*
+====================================================================================================================================================================
+                                                    Start Global Properties 
+====================================================================================================================================================================
+*/
+body {
+    font-family: cursive;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+	width: 105%;
+	height: 100px;
+	background: #172035;
+}
+img#logo1{
+
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter:invert(1);
+}
+
+
+ img#logo2 { 
+    width: 20%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter:invert(1);
+
+} 
+
+nav {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 30px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 2em;
+	
+	margin-right: 20px;
+    padding: 30px;
+}
+
+a:hover {
+    color: white;
+    background: #09568d;  
+    padding: 30px;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    background: #172035;
+    color: white;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background: #09568d;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+footer {
+    
+    width: 100%;
+    height: 300px;
+    background: #172035;
+    position:absolute;
+    top: 667px;
+    left: 0;
+    
+    
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+    font-size: 1em;
+}
+.col-sm-6 li{
+     display:inline-block;
+     margin-right: 10px;
+     margin-bottom: 13px;
+     padding-top:40px;  
+     
+}
+
+
+/*
+====================================================================================================================================================================
+                                                    End Global Properties 
+====================================================================================================================================================================
+*/

@@ -1,0 +1,56 @@
+/*
+====================================================================================================================================================================
+                                                    Start Slideshow Properties 
+====================================================================================================================================================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+  }
+
+body {
+    background-image: url("");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+section#content {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+img#slide {
+    position: static; 
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+footer {
+    
+    width: 100%;
+    height: 300px;
+    background: #172035;
+    position:absolute;
+    top: 667px;
+    left: 0;
+    
+    
+}
+
+
+
+
